@@ -281,7 +281,7 @@ Terminating ElectrumX
 The preferred way to terminate the server process is to send it the
 ``stop`` RPC command::
 
-  electrumx_rpy.py stop
+  electrumx_rpc.py stop
 
 or alternatively on Unix the ``INT`` or ``TERM`` signals.  For a
 daemontools supervised process this can be done by bringing it down
